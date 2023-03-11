@@ -55,7 +55,7 @@ deathsratings = sorted(deathsratings.items(), key=operator.itemgetter(1), revers
 
 
 
-with open("analiz.txt", "a") as file1:
+with open("analyze.txt", "a") as file1:
     file1.write("Overall Ratings\n")
     for ratingsindict in ratings:
 
